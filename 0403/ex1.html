@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .boxs {
+            max-width: 1200pxs;
+            background: skyblue;
+            margin: 0px auto;
+        }
+
+        .box {
+            width: 33%;
+            height: 200px;
+            display: inline-block;
+        }
+
+        .box1 {
+            background-color: red;
+        }
+
+        .box2 {
+            background-color: blue;
+        }
+
+        .box3 {
+            background-color: yellow;
+        }
+
+        @media screen and (max-width:700px) {
+            .box {
+                width: 90%;
+                margin: 0px auto;
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxs">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+    </div>
+</body>
+
+</html>
